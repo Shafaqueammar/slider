@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Slider with Zoom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                Products
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Faq</a>
+            </nav>
+        </div>
+    </header>
+<img src="" alt="">
+    
+
+
+    <h1> Product Slider</h1>
+<div class="bigImage" >
+<img  id="slider-img" src="product 1.jpg" alt="" width="600" height="500" >
+</div>
+    <!-- Product Slider -->
+    <div class="product-slider" >
+        <div class="product">
+            <img src="product 2.jpg" class="small_img" onclick="showsmallImg(this)">
+            <img src="product 3.webp" class="small_img" onclick="showsmallImg(this)">
+            <img src="product 4.jpg" class="small_img" onclick="showsmallImg(this)">
+            <img src="product 5.webp" class="small_img" onclick="showsmallImg(this)">
+
+        </div>
+   
+    </div>
+
+    <!-- Arrow Buttons -->
+    <div onclick="prev()" class="left-arrow"><i class="fa-solid fa-less-than"></i></div>
+    <div onclick="next()" class="right-arrow"><i class="fa-solid fa-greater-than"></i></div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
